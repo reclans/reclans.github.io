@@ -1,7 +1,7 @@
 $().ready(function(){
     $.getJSON( "https://api.airtable.com/v0/appt2JEiD72oVFwyG/project%20test?api_key=keyGCIEgL1QgLoNvc", function( data ) {
         var record = data.records[1];
-        for (let i = 0; i < arr.length; i++) {
+        for (let i = 0; i < record.length; i++) {
             console.log(record[i]);
                         }
         //console.log(record);        
