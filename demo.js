@@ -5,6 +5,6 @@ $().ready(function(){
     console.log(JSON.stringify(data));
     console.log(JSON.stringify(data, null, 1));
     console.log(JSON.stringify(data, null, 2));            
-    $("#text").html(data]);
+    $("#text").html(data);
   });
 });
