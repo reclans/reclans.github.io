@@ -3,7 +3,7 @@ $().ready(function(){
         var record = data.records[1];
         console.log(data.records.length);
         for (let i = 0; i < data.records.length; i++) {
-            console.log(record[i]);
+            console.log(data.records[i]);
                         }
         //console.log(record);        
         //var record1 = data.records[1].fields;
