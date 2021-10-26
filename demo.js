@@ -1,6 +1,6 @@
 $().ready(function(){
     $.getJSON( "https://api.airtable.com/v0/appt2JEiD72oVFwyG/project%20test?api_key=keyGCIEgL1QgLoNvc", function( data ) {
-        var record = data.record[0];
+        var record = data.record;
         console.log(record);
         //console.log(typeof(data));
         //var test1 = JSON.stringify(data, null, 1);
