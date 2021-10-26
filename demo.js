@@ -24,10 +24,11 @@ $().ready(function(){
         console.log(data.records.length);
         for (let i = 0; i < data.records.length; i++) {
             if (i != 0) {
-                console.log(data.records[i].Data1;
-                console.log(data.records[i].Data2;
-                console.log(data.records[i].ID;
+                console.log(data.records[i].Data1);
+                console.log(data.records[i].Data2);
+                console.log(data.records[i].ID);
             };
+        };
         //console.log(record);        
         //var record1 = data.records[1].fields;
         //console.log(record1);
