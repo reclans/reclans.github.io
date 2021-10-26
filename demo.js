@@ -1,18 +1,18 @@
 const ALLOWED_FIELDS = [
     {
-        name: 'Data1';
-        isArray: false;
-        isFiltered: false;
+        name: 'Data1',
+        isArray: false,
+        isFiltered: false
     },
     {
-        name: 'Data2';
-        isArray: false;
-        isFiltered: false;
+        name: 'Data2',
+        isArray: false,
+        isFiltered: false
     },
     {
-        name: 'ID';
-        isArray: false;
-        isFiltered: false;
+        name: 'ID',
+        isArray: false,
+        isFiltered: false
     }
 ];
 
