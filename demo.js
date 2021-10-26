@@ -1,10 +1,33 @@
+const ALLOWED_FIELDS = [
+    {
+        name: 'Data1';
+        isArray: false;
+        isFiltered: false;
+    },
+    {
+        name: 'Data2';
+        isArray: false;
+        isFiltered: false;
+    },
+    {
+        name: 'ID';
+        isArray: false;
+        isFiltered: false;
+    }
+];
+
+
+
 $().ready(function(){
     $.getJSON( "https://api.airtable.com/v0/appt2JEiD72oVFwyG/project%20test?api_key=keyGCIEgL1QgLoNvc", function( data ) {
         var record = data.records[1];
         console.log(data.records.length);
         for (let i = 0; i < data.records.length; i++) {
-            console.log(data.records[i]);
-                        }
+            if (i != 0) {
+                console.log(data.records[i].Data1;
+                console.log(data.records[i].Data2;
+                console.log(data.records[i].ID;
+            };
         //console.log(record);        
         //var record1 = data.records[1].fields;
         //console.log(record1);
