@@ -4,7 +4,7 @@ $().ready(function(){
         console.log(record);        
         var record1 = data.records[1].fields;
         console.log(record1);
-        console.log(data. data.records[1].fields[data1];
+        console.log(data. data.records[1].fields[data1]);
         //var record2 = data.records[1].fields.data2;
         //console.log(record2)
         //console.log(typeof(data));
