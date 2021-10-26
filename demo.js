@@ -24,9 +24,9 @@ $().ready(function(){
         console.log(data.records.length);
         for (let i = 0; i < data.records.length; i++) {
             if (i != 0) {
-                console.log(data.records[i].Data1);
-                console.log(data.records[i].Data2);
-                console.log(data.records[i].ID);
+                console.log(data.records[i].fields.Data1);
+                console.log(data.records[i].fields.Data2);
+                console.log(data.records[i].fields.ID);
             };
         };
         //console.log(record);        
