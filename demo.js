@@ -21,8 +21,9 @@ const ALLOWED_FIELDS = [
 $().ready(function(){
     $.getJSON( "https://api.airtable.com/v0/appt2JEiD72oVFwyG/project%20test?api_key=keyGCIEgL1QgLoNvc", function( data ) {
         var record = data.records[1];
-        console.log(${{ secrets.AIRTABLE_API_KEY }});
-        //console.log(${{ secrets.AIRTABLE_API_KEY }});
+        var key = ${{ secrets.AIRTABLE_API_KEY }};
+        console.log('testing');
+        console.log(key);
         console.log(data.records.length);
         for (let i = 0; i < data.records.length; i++) {
             if (i != 0) {
