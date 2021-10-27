@@ -36,7 +36,4 @@ jobs:
           echo test, and deploy your project.
       
       # attempting to save GitHub Secrets to variable 
-      - name: Airtable API info
-        env:
-          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
-          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+
