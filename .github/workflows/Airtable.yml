@@ -39,6 +39,4 @@ jobs:
       - name: GitHub Action if statement (true)
         env: 
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
-        if:  env.AIRTABLE_API_KEY == 'keyGCIEgL1QgLoNvc'
-        run: echo "I know what the secret token is!"
 
