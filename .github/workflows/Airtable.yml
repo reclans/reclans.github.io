@@ -35,5 +35,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      # attempting to save GitHub Secrets to variable 
+      # Use a GitHub Actions secret variable in a bash shell
+      - name: GitHub Action if statement (true)
+        env: 
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+        if:  env.AIRTABLE_API_KEY == 'keyGCIEgL1QgLoNvc'
+        run: echo "I know what the secret token is!"
 
