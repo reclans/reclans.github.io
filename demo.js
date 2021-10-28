@@ -20,16 +20,19 @@ const ALLOWED_FIELDS = [
 
 $().ready(function(){
    
-        var record = data.records[1];
-        console.log(process.env.AIRTABLE_API_KEY);
-        console.log(data.records.length);
-        for (let i = 0; i < data.records.length; i++) {
-            if (i != 0) {
-                console.log(data.records[i].fields.Data1);
-                console.log(data.records[i].fields.Data2);
-                console.log(data.records[i].fields.ID);
-            };
+        //var record = data.records[1];
+        if (process.env.TEST_KEY == 'testing'){
+            console.log('TEST_KEY working');
         };
+       
+//         console.log(data.records.length);
+//         for (let i = 0; i < data.records.length; i++) {
+//             if (i != 0) {
+//                 console.log(data.records[i].fields.Data1);
+//                 console.log(data.records[i].fields.Data2);
+//                 console.log(data.records[i].fields.ID);
+//             };
+//         };
         //console.log(record);        
         //var record1 = data.records[1].fields;
         //console.log(record1);
@@ -43,5 +46,5 @@ $().ready(function(){
         //console.log(JSON.stringify(data, null, 1));
         //console.log(JSON.stringify(data, null, 2));            
         //$("#text").html(data);
-  });
+//   });
 });
