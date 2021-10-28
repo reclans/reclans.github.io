@@ -29,6 +29,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      # trying to get node.js to work.  Not sure if this is needed    
+      - name: npm install
+        run: npm ci
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
