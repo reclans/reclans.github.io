@@ -1,5 +1,3 @@
-const airtable = require('airtable');
-
 const ALLOWED_FIELDS = [
     {
         name: 'Data1',
