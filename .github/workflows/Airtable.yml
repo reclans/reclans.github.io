@@ -39,11 +39,11 @@ jobs:
           
           echo
           echo is node.js installed?
-          node -version
+          node -v
           
           echo
           echo is npm installde?
-          npm -version
+          npm -v
       
       # Use a GitHub Actions secret variable in a bash shell
       - name: GitHub Action if statement (true)
