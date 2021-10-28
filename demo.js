@@ -19,7 +19,7 @@ const ALLOWED_FIELDS = [
 
 
 $().ready(function(){
-    $.getJSON( "https://api.airtable.com/v0/appt2JEiD72oVFwyG/project%20test?api_key=keyGCIEgL1QgLoNvc", function( data ) {
+   
         var record = data.records[1];
         console.log(process.env.AIRTABLE_API_KEY);
         console.log(data.records.length);
