@@ -40,5 +40,6 @@ jobs:
       - name: GitHub Action if statement (true)
         env: 
           AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          TEST_KEY: ${{ secrets.TEST_KEY }}
         run: echo "hey look I put in a run here!!"
 
