@@ -34,8 +34,16 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo What is in this directory?
+          ls -l
+          
+          echo
+          echo is node.js installed?
+          node -version
+          
+          echo
+          echo is npm installde?
+          npm -version
       
       # Use a GitHub Actions secret variable in a bash shell
       - name: GitHub Action if statement (true)
